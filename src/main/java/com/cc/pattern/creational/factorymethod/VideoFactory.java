@@ -1,7 +1,8 @@
-package com.cc.pattern.creational.simplefactory;
+package com.cc.pattern.creational.factorymethod;
 
-public class VideoFactory {
-    public Video getVideo(String type){
+
+public abstract class VideoFactory {
+    /*public Video getVideo(String type){
         if("java".equalsIgnoreCase(type)){
             return new JavaVideo();
         }else if("python".equalsIgnoreCase(type)){
@@ -23,5 +24,7 @@ public class VideoFactory {
             e.printStackTrace();
         }
         return video;
-    }
+    }*/
+
+    public abstract Video getVideo();
 }
