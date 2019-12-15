@@ -1,5 +1,7 @@
 package com.cctest.programmedesign.dependenceinversion;
 
+import org.springframework.boot.web.servlet.ServletContextInitializerBeans;
+
 public class Test {
     public static void main(String[] args) {
 
