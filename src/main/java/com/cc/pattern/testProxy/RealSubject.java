@@ -1,4 +1,4 @@
-package com.cc.testProxy;
+package com.cc.pattern.testProxy;
 
 public class RealSubject implements Subject {
     @Override
