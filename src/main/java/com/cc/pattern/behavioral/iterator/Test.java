@@ -20,5 +20,6 @@ public class Test {
             System.out.println(courseIterator.nextCourse());
         }
 
+
     }
 }
