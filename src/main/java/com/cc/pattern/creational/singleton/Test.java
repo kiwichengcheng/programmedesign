@@ -85,6 +85,9 @@ public class Test {
         EnumInstance instance = EnumInstance.getInstance();
 
         System.out.println(instance);
+
+        System.out.println(27&15);
+        System.out.println(27%15);
         //System.out.println(newInstance);
         //System.out.println(instance == newInstance);
 
