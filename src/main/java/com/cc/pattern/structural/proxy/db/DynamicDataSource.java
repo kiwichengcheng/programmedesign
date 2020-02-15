@@ -1,10 +1,10 @@
 package com.cc.pattern.structural.proxy.db;
 
-import org.springframework.jdbc.datasource.lookup.AbstractRoutingDataSource;
+//import org.springframework.jdbc.datasource.lookup.AbstractRoutingDataSource;
 
-public class DynamicDataSource extends AbstractRoutingDataSource {
-    @Override
+public class DynamicDataSource/* extends AbstractRoutingDataSource */{
+    /*@Override
     protected Object determineCurrentLookupKey() {
         return DataSourceContextHolder.getDBType();
-    }
+    }*/
 }
